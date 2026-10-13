@@ -1,0 +1,20 @@
+{
+  "name": "taskflow-student-task-manager",
+  "version": "1.0.0",
+  "description": "A beginner-friendly full-stack student task manager built with Node.js, Express, SQLite, HTML, CSS and JavaScript.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
